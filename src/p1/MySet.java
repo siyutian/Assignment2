@@ -9,10 +9,7 @@ public class MySet<V> {
 	
 	public boolean add(V element){
 		Iterator<V> it=elements.iterator();
-		while(it.hasNext()){
-			if(element.equals(it.next()))
-				return false;
-		}
+
 		elements.add(element);
 		hashCodes.add(element.hashCode());
 		return true;
