@@ -7,11 +7,7 @@ public class MySet<V> {
 	private ArrayList<V> elements;
 	private ArrayList<Integer> hashCodes;
 	
-	public boolean add(V element){
-		Iterator<V> it=elements.iterator();
-
-		elements.add(element);
-		hashCodes.add(element.hashCode());
+	public bool
 		return true;
 		
 	}
